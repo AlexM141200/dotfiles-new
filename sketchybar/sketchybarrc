@@ -3,7 +3,7 @@
 source "$HOME/.config/sketchybar/variables.sh" # Loads all defined colors
 
 # General bar and defaults
-
+# 
 sketchybar --bar height=30 \
 	color="$BAR_COLOR" \
 	shadow="$SHADOW" \
@@ -15,9 +15,8 @@ sketchybar --bar height=30 \
 	y_offset=5 \
 	margin=5 \
 	blur_radius=20 \
-	notch_width=200 \
 	--default updates=when_shown \
-	icon.font="$FONT:Bold:13.5" \
+	icon.font="$FONT:Bold:20.5" \
 	icon.color="$ICON_COLOR" \
 	icon.padding_left="$PADDINGS" \
 	icon.padding_right="$PADDINGS" \
@@ -37,9 +36,6 @@ sketchybar --bar height=30 \
 # source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/spaces.sh"
 source "$ITEM_DIR/front_app.sh"
-
-# Center (of notch)
-source "$ITEM_DIR/spotify.sh"
 
 # Right
 source "$ITEM_DIR/clock.sh"

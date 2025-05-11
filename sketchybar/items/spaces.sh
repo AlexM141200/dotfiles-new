@@ -23,7 +23,7 @@ done
 sketchybar --add item spacer.2 left \
 	--set spacer.2 background.drawing=off \
 	label.drawing=off \
-	icon.drawing=off \
+	icon.drawing=on \
 	width=5
 
 sketchybar --add bracket spaces '/space.*/' \
